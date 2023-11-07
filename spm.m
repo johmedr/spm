@@ -7,11 +7,11 @@ function varargout=spm(varargin)
 % (___/(__)  (_/\/\_)  SPM - https://www.fil.ion.ucl.ac.uk/spm/
 %_______________________________________________________________________
 %
-% SPM (Statistical Parametric Mapping) is a package for the analysis
+% SPM (Statistical Parametric Mapping) is a package for the analysis of
 % functional brain mapping experiments. It is the in-house package of
 % the Wellcome Centre for Human Neuroimaging, and is available to the
 % scientific community as copyright freeware under the terms of the
-% GNU General Public Licence.
+% MIT license.
 % 
 % Theoretical, computational and other details of the package are
 % available in SPM's "Help" facility. This can be launched from the
@@ -42,8 +42,8 @@ function varargout=spm(varargin)
 %
 % Further interaction with the user is (mainly) via questioning in the
 % 'Interactive' window (managed by spm_input), and file selection
-% (managed by spm_select). See the help on spm_input.m and spm_select.m for
-% details on using these functions.
+% (managed by spm_select). See the help on spm_input.m and spm_select.m
+% for details on using these functions.
 %
 % Arguments to this routine (spm.m) lead to various setup facilities,
 % mainly of use to SPM power users and programmers. See programmers
@@ -350,9 +350,6 @@ end
 Fgraph = spm_figure('Create','Graphics','Graphics','off'); fprintf('.');
    
 spm_figure('WaterMark',Finter,spm('Ver'),'',45);
-
-%url = fullfile(spm('Dir'),'help','index.html');
-%spm_help('!Disp',url,'',Fgraph);                          fprintf('.');
 spm_figure('WaterMark',Fgraph,spm('Ver'),'',0);            fprintf('.');
 
 %-Setup for current modality
