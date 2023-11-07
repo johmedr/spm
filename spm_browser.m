@@ -10,13 +10,13 @@ function spm_browser(url,format)
 %__________________________________________________________________________
 
 % Guillaume Flandin
-% Copyright (C) 2011-2022 Wellcome Centre for Human Neuroimaging
+% Copyright (C) 2011-2023 Wellcome Centre for Human Neuroimaging
 
 
 %-Input arguments
 %--------------------------------------------------------------------------
 if nargin < 1
-    url  = ['file://' fullfile(spm('Dir'),'help','index.html')];
+    url  = 'https://www.fil.ion.ucl.ac.uk/spm/';
 end
 
 if nargin < 2 || isempty(format)
