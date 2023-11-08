@@ -17,33 +17,6 @@ function tree = xml_parser(xmlstr)
 % Copyright (C) 2002-2022 Guillaume Flandin
 
 
-% XML Processor for GNU Octave and MATLAB
-% Copyright (C) 2002-2022 Guillaume Flandin
-%
-% This program is free software; you can redistribute it and/or
-% modify it under the terms of the GNU General Public License
-% as published by the Free Software Foundation; either version 2
-% of the License, or any later version.
-%
-% This program is distributed in the hope that it will be useful,
-% but WITHOUT ANY WARRANTY; without even the implied warranty of
-% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-% GNU General Public License for more details.
-% 
-% You should have received a copy of the GNU General Public License
-% along with this program; if not, write to the Free Software
-% Foundation Inc, 59 Temple Pl. - Suite 330, Boston, MA 02111-1307, USA.
-%--------------------------------------------------------------------------
-
-% Suggestions for improvement and fixes are always welcome, although no
-% guarantee is made whether and when they will be implemented.
-% Check also the latest developments on the following webpage:
-%           <https://www.github.com/gllmflndn/xmltree>
-%--------------------------------------------------------------------------
-
-% The implementation of this XML parser is much inspired from a 
-% Javascript parser that used to be available at <http://www.jeremie.com/>
-
 % A C-MEX file xml_findstr.c is also required, to encompass some
 % limitations of the built-in FINDSTR function.
 % Compile it on your architecture using 'mex -O xml_findstr.c' command
