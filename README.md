@@ -5,6 +5,8 @@
 [![SPM: help](https://img.shields.io/badge/SPM-help-plum.svg)](https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=SPM)
 [![SPM: YouTube](https://img.shields.io/badge/SPM-YouTube-plum.svg)](https://www.youtube.com/@StatisticalParametricMapping)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/license/mit/)
+[![Platform: MATLAB](https://img.shields.io/badge/MATLAB-orange.svg?style=plastic)](https://www.mathworks.com)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=spm/spm)
 [![Tests](https://github.com/spm/spm/actions/workflows/matlab.yml/badge.svg)](https://github.com/spm/spm/actions/workflows/matlab.yml)
  
 Statistical Parametric Mapping refers to the construction and assessment
